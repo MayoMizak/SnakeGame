@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/snake.css"/>
+        <script src="js/snake.js"></script>
+    </head>
+    <body onload="pageLoad()">
+        <div id="intro">
+            <h1>Welcome to Snake!</h1>
+            <h2>How to play:</h2>
+            <ul>
+                <li>Use the arrow keys to change the direction of your snake</li>
+                <li>Press spacebar to pause or unpause</li>
+                <li>Eat yellow food squares to expand your snake</li>
+                <li>Don't run into the walls or your own snake</li>
+                <li>The longer your snake, the higher your score!</li>
+            </ul>
+            <button onclick="buildGame()">Start</button>
+            <span id="hs">High Score:</span>
+        </div>
+        <table id="board">
+            
+        </table>
+    </body>
+</html>
