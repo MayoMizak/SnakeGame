@@ -1,0 +1,40 @@
+body
+{
+    background-color:black;
+    color:white;
+    margin: 0pt 0pt 0pt 0pt;
+}
+#board
+{
+    border-collapse:collapse;
+    padding:0pt;
+    border-width:0pt;
+    display:none;
+}
+td
+{
+    width:20pt;
+    min-width:15pt;
+    height:15pt;
+    padding:0pt;
+}
+tr
+{
+    padding:0pt;
+}
+.edge
+{
+    background-color:white;
+}
+.snake
+{
+    background-color:white;
+}
+.open
+{
+    background-color:black;
+}
+.food
+{
+    background-color:yellow;
+}
